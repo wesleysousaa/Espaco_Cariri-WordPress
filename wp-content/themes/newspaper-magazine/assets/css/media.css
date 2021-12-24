@@ -1,0 +1,316 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : August 21, 2014, 12:40:32 PM
+    Author     : Aneal
+*/
+
+/* for  xs class*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.padding-left-right-zero{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.padding-right-zero{
+    padding-right: 0px;
+}
+.padding-left-zero{
+    padding-left: 0px;
+}
+.border-b-r-radius{
+    border-bottom-right-radius: 15px;
+}
+
+
+@media (max-width:767px){
+
+    .main-header{
+        position: relative;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .onlineapp{
+        margin-top:12px;
+    }
+    .foot-body{
+        margin-bottom: 30px;
+    }
+    .right-links{
+        text-align: center;
+    }
+    div.border-bottom{
+        min-height: 380px;
+    }
+    .left-links{
+        padding-top: 10px;
+    }
+}
+
+/* for  sm class*/
+@media (max-width:991px){
+    .im-hiding{
+        display: none;
+    }
+    nav{
+        padding-top: 0px ;
+    }
+    .hideme{
+        display: none;
+    }
+    .main-nav {
+    width: 100%;
+    z-index: 1111111;
+    position: relative;
+}
+
+    .main-nav li{
+        display: block;
+        padding: 0px !important;
+        width: 100%;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #ccc ;
+    }
+    .main-nav > li a{
+        padding-left: 0px;
+    }
+
+
+    .main-nav ul > li:last-child{
+        border-bottom: none;
+    }
+    .main-nav ul  li  a {
+        padding-left: 35px;
+    }
+    .main-nav ul ul li a{
+        padding-left: 70px;
+    }
+
+    .main-nav li a{
+        display: block;
+        color: #fff; 
+        line-height: 40px;
+        border-left: none;
+        padding: 0px 20px;
+        background-color: #c7c6c6;
+    }
+
+    .main-nav li ul{
+        display: none;
+
+    }
+    .main-nav li a:hover{
+        background-color:#00bcd4;
+    }
+    .below{
+        background-image: url(../images/down.png);  
+          background-position: 98% !important;
+    }
+    .below:hover{
+        background: url(../images/down.png) no-repeat 98% 70% rgba(0, 157, 0, 0.87);  
+    }
+    .nav-wrapper{
+        border-bottom: none;
+        margin: 5px 0px;
+    }
+    .left-links .title{
+        font-size: 16px;
+    }
+    .margin-visible-sm{
+        margin-bottom: 30px;
+    }
+    .foot-links{
+        /*text-align: center;*/
+    }
+
+}
+
+/* for  md class*/
+@media (max-width:1199px){
+    .testi-name-wrapper{
+        padding-left: 0px;
+    }
+    .testi-name:before{
+        position: absolute;
+        content: '';
+        border-style: solid;
+        left: 42%;
+        top: -42%;
+        border-width: 0px 0px 21px 21px;
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #683D2A;
+    }
+    .date{
+        margin-bottom: 5px;
+    }
+    .news-body{
+        padding-left: 0px;
+    }
+		.pager{
+			top:310px;
+		}
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:992px){
+    .main-nav >li{
+      /*  background-color: #683d2a;*/
+    } 
+    .main-nav > li:hover{
+        background:#009d00;
+    }
+    .im-hiding{
+        display: block !important;
+    }
+
+    .nav-bg{
+        margin-top: 5px;
+    }
+    .main-nav{
+
+
+    }
+    .main-nav > a{
+        line-height: 95px;
+
+    }
+    .main-nav a{
+        color: #000;
+        display: block;
+        padding: 12px 13px;
+    }
+    .active{ 
+       /* background-color: #009d00 !important;*/
+    }
+    .main-nav >li{
+        float: left;
+    }
+
+    .main-nav li{
+        position:relative;
+    }
+	/*.main-nav li:last-child{
+		border-right: none;
+    }*/
+    .main-nav ul{
+        position: absolute;
+        display: none;
+        min-width: 250px;
+        box-shadow: 2px 4px 5px #595353;
+        background: #ecebeb;
+    }
+    .main-nav li:hover > ul{
+        display: block;  
+        z-index:999999;
+    }
+    .main-nav ul li{
+        border-top: 1px solid rgba(255, 255, 255, 0.66);
+        /* border-bottom: 1px solid #ccc ; */
+    }
+    .main-nav > li:hover{
+        background: #000; /* Old browsers */
+        color: #2377cf;
+    }
+    .main-nav  li:hover > a{
+        color: #00bcd4;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .main-nav  li:hover{
+        background: #fff;
+
+    }
+    .main-nav ul a{
+        height: auto;
+        padding: 10px 20px;
+        color: #404040;
+    }
+
+    .main-nav ul ul{
+        left: 100%;
+        top: -3%;
+    }
+
+}
+@media (min-width:1200px){
+    .testi-name:before{
+        position: absolute;
+        content: '';
+        border-style: solid;
+        left: 0%;
+        top: 53%;
+        border-width: 3px 0px 21px 16px;
+        border-color: rgba(0, 0, 0, 0) #683d2a #683d2a rgba(0, 0, 0, 0);
+    }
+}
+/*for nav */
+.below{
+
+    background-image:url(../images/down.png);
+
+
+    background-position: 50% 91%;
+    background-repeat: no-repeat;
+
+}
+.side{
+
+    /*background-image:url(../images/next_1.png);*/
+    background-position:96% center;
+    background-repeat:no-repeat;
+
+}
+/*.nav-wrapper{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1063A7;
+
+}*/
+nav{
+
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+
+}
+.main-nav a{
+    text-transform: capitalize;
+}
+.main-nav > li > a{
+    color:#404040;
+    font-size: 14px;    
+    padding: 0px 20px;
+    /* font-weight: bold; 
+    border-left: 1px solid #333;*/
+    height: 45px;
+    line-height: 45px;
+        text-transform: uppercase;
+} 
+
+#showbutton{
+    display: block;
+    /* background: #940404; */    
+}
+#showbutton:hover{
+    /* background:#880015; */
+    cursor: pointer;
+}
+/*navigation finished*/
+.main-nav li a img {
+    padding-top: 16px;
+}
+.main-nav li.reser:focus > ul.reservationform{
+        display: block;  
+        z-index:999999;
+    }

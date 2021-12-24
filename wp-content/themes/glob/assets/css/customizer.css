@@ -1,0 +1,25 @@
+#customize-control-footer_4_columns,
+#customize-control-footer_2_columns,
+#customize-control-footer_3_columns {
+    display: none;
+}
+/* Menu colors */
+.color-item {
+    margin-bottom: 10px;
+}
+.color-item:last-child {
+    margin-bottom: 0px;
+}
+.color-item .label{
+    display: block;
+    margin-bottom: 5px;
+}
+.focus-nav-menu {
+    margin-bottom: 10px;
+}
+.focus-nav-menu a {
+    font-weight: bold;
+}
+.menu .focus-nav-colors-li {
+    margin-bottom: 10px;
+}

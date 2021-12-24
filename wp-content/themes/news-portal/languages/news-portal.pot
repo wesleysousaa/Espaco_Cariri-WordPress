@@ -1,0 +1,1302 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2019-08-01 14:20+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "error"
+msgstr ""
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:55
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:37
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-functions.php:133
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: inc/template-functions.php:141
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Titillium Web, translate this to 'off'. Do not translate into your own language.
+#: inc/template-functions.php:149
+msgctxt "Titillium Web font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-functions.php:284
+msgid "Select Category"
+msgstr ""
+
+#: inc/template-functions.php:507 inc/customizer/np-design-panel.php:131
+msgid "Continue Reading"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:32 inc/template-tags.php:67
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#. %s: post author.
+#. %s: post author.
+#: inc/template-tags.php:38 inc/template-tags.php:73
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:84
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:109
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:112
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:120 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:27
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:35
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:35
+msgid "About"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:73
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:77
+msgid "Cheat in &#8217; huh?"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:94
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:95
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:96
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %2$s welcome page %3$s."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:98
+#, php-format
+msgid "Get started with %1$s"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:124
+#, php-format
+msgid "Version: %1$s"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:138
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:140
+msgid "View Demo"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:142
+#: inc/about-theme/news-portal-about.php:219
+msgid "View PRO version"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:144
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:153
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:157
+msgid "More Themes"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:161
+msgid "Changelog"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:199
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:200
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:201
+#: inc/about-theme/news-portal-about.php:288
+msgid "Customize"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:205
+#: inc/about-theme/news-portal-about.php:207 inc/customizer/customizer.php:86
+msgid "Documentation"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:206
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:211
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:212
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:213
+msgid "Support"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:217
+msgid "Need more features?"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:218
+#: inc/about-theme/news-portal-about.php:450
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:223
+msgid "Have you need customization?"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:224
+msgid "Please send message with your requirement."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:225
+msgid "Customization"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:229
+#: inc/about-theme/news-portal-about.php:232
+#, php-format
+msgid "Translate %1$s"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:230
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:241
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:241
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:244
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:244
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:286
+msgid "Active"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:325
+msgid "Activate"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:334
+msgid "Install Now"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:337
+msgid "Live Preview"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:398
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:455
+msgid "Features"
+msgstr ""
+
+#. Name of the theme
+#: inc/about-theme/news-portal-about.php:456
+#: inc/customizer/np-footer-panel.php:138 inc/hooks/np-footer-hooks.php:59
+msgid "News Portal"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:457 inc/customizer/customizer.php:52
+msgid "News Portal Pro"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:462
+msgid "Price"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:463
+msgid "Free"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:464
+msgid "$55"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:467
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:472
+msgid "Pre Loaders"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:477
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:478
+#: inc/about-theme/news-portal-about.php:483
+#: inc/about-theme/news-portal-about.php:488
+#: inc/about-theme/news-portal-about.php:543
+msgid "1"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:479
+msgid "3"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:482
+msgid "Archive Pages Layouts"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:484
+#: inc/about-theme/news-portal-about.php:489
+msgid "4"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:487
+msgid "Single Page Layouts"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:492
+msgid "Post Review"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:497
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:502
+msgid "Image Hover Features"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:507
+msgid "Fallback Image"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:512
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:514
+msgid "600+"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:517
+msgid "Typography Options"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:522
+msgid "WooCommerce Compatible"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:527
+msgid "No. of Widgets"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:528
+msgid "8"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:529
+msgid "12"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:532
+msgid "Custom 404 Page"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:537
+msgid "Animation on Section"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:542
+msgid "Bottom Footer Layouts"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:544
+msgid "2"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:550
+msgid "View Pro"
+msgstr ""
+
+#: inc/about-theme/news-portal-about.php:573
+#, php-format
+msgid ""
+"If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge "
+"thank you from <strong>Mystery Themes</strong> in advance &#128515!"
+msgstr ""
+
+#: inc/customizer/customizer.php:53
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:69
+msgid "Important Theme Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "Live Demo"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "Support Forum"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "Like Us in Facebook"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:103
+#, php-format
+msgid "Please do rate our theme if you liked it %s"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:25
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:38
+#: inc/customizer/np-header-panel.php:118
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:65
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:69
+msgid "Social Media Icon"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:70
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:75
+msgid "Social Media Logo"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:76
+msgid "Choose social media icon."
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:80
+msgid "Social Icon Url"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:81
+msgid "Enter social media url."
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:96
+msgid "Categories Color"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:121
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:138
+msgid "Widget Settings"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:161
+msgid "Category Link"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:162
+msgid ""
+"Enable/Disable option for category link for widget title in block layout "
+"widget."
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:165
+#: inc/customizer/np-additional-panel.php:194
+#: inc/customizer/np-header-panel.php:163
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:166
+#: inc/customizer/np-additional-panel.php:195
+#: inc/customizer/np-header-panel.php:164
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:190
+msgid "Category Color"
+msgstr ""
+
+#: inc/customizer/np-additional-panel.php:191
+msgid ""
+"Enable/Disable option for category color for widget title in block layout "
+"widget."
+msgstr ""
+
+#: inc/customizer/np-custom-classes.php:23
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: inc/customizer/np-custom-classes.php:290
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/np-custom-classes.php:291
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/np-customizer-sanitize.php:47
+msgid "Fullwidth Layout"
+msgstr ""
+
+#: inc/customizer/np-customizer-sanitize.php:48
+#: inc/customizer/np-general-panel.php:120
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer/np-customizer-sanitize.php:64
+#: inc/customizer/np-design-panel.php:289 inc/customizer/np-footer-panel.php:65
+#: inc/customizer/np-header-panel.php:64 inc/customizer/np-header-panel.php:93
+#: inc/customizer/np-header-panel.php:122
+#: inc/customizer/np-header-panel.php:192
+#: inc/customizer/np-header-panel.php:221
+#: inc/customizer/np-header-panel.php:263
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/np-customizer-sanitize.php:65
+#: inc/customizer/np-design-panel.php:290 inc/customizer/np-footer-panel.php:66
+#: inc/customizer/np-header-panel.php:65 inc/customizer/np-header-panel.php:94
+#: inc/customizer/np-header-panel.php:123
+#: inc/customizer/np-header-panel.php:193
+#: inc/customizer/np-header-panel.php:222
+#: inc/customizer/np-header-panel.php:264
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:28
+msgid "Design Settings"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:41
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:63
+msgid "Archive Sidebars"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:64 inc/customizer/np-design-panel.php:186
+#: inc/customizer/np-design-panel.php:243
+msgid "Choose sidebar from available layouts"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:68 inc/customizer/np-design-panel.php:190
+#: inc/customizer/np-design-panel.php:247
+#: inc/widgets/np-widget-functions.php:39
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:72 inc/customizer/np-design-panel.php:194
+#: inc/customizer/np-design-panel.php:251
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:76 inc/customizer/np-design-panel.php:198
+#: inc/customizer/np-design-panel.php:255
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:80 inc/customizer/np-design-panel.php:202
+#: inc/customizer/np-design-panel.php:259
+msgid "No Sidebar Center"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:105
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:106 inc/customizer/np-footer-panel.php:90
+msgid "Choose layout from available layouts"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:110
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:114
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:140
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:141
+msgid "Enter read more button text for archive page."
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:163
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:185
+msgid "Page Sidebars"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:220
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:242
+msgid "Post Sidebars"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:285
+msgid "Related Post Option"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:286
+msgid "Show/Hide option for related posts section at single post page."
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:305 inc/hooks/np-custom-hooks.php:43
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/np-design-panel.php:314
+msgid "Related Post Section Title"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:25
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:38
+msgid "Widget Area"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:61
+msgid "Footer Widget Section"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:62
+msgid "Show/Hide option for footer widget area section."
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:89
+msgid "Footer Widget Layout"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:94
+msgid "Columns Four"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:98
+msgid "Columns Three"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:102
+msgid "Columns Two"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:106
+msgid "Column One"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:124
+msgid "Bottom Section"
+msgstr ""
+
+#: inc/customizer/np-footer-panel.php:147
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:34
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:55
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:81
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:97
+msgid "Website Layout"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:98
+msgid "Choose a site to display your website more effectively."
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:116
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:119
+msgid "FullWidth Layout"
+msgstr ""
+
+#: inc/customizer/np-general-panel.php:140
+msgid "Display Site Title and Tagline"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:25
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:37 inc/customizer/np-header-panel.php:60
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:61
+msgid "Show/Hide option for top header section."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:89
+msgid "Current Date"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:90
+msgid "Show/Hide option for current date at top header section."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:119
+msgid "Show/Hide option for social media icons at top header section."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:136
+msgid "Header Option"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:159
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:160
+msgid "Enable/Disable option for sticky menu."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:188
+msgid "Home Icon"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:189
+msgid "Show/Hide option for home icon at primary menu."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:217
+msgid "Search Icon"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:218
+msgid "Show/Hide option for search icon at primary menu."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:236
+msgid "Ticker Section"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:259
+msgid "Ticker Option"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:260
+msgid "Show/Hide option for news ticker section."
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:279 inc/hooks/np-header-hooks.php:270
+msgid "Breaking News"
+msgstr ""
+
+#: inc/customizer/np-header-panel.php:288
+msgid "Ticker Caption"
+msgstr ""
+
+#: inc/hooks/np-footer-hooks.php:67
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:16
+msgid "Page Meta Options"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:29 inc/metaboxes/np-post-metabox.php:29
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:35 inc/metaboxes/np-post-metabox.php:35
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:41 inc/metaboxes/np-post-metabox.php:41
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:47 inc/metaboxes/np-post-metabox.php:47
+msgid "No sidebar Full width"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:53 inc/metaboxes/np-post-metabox.php:53
+msgid "No sidebar Content Centered"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:72 inc/metaboxes/np-post-metabox.php:72
+msgid "Information"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:73 inc/metaboxes/np-post-metabox.php:73
+msgid "Sidebars"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:80 inc/metaboxes/np-post-metabox.php:80
+msgid "About Metabox Options"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:82 inc/metaboxes/np-post-metabox.php:82
+msgid ""
+"In this section we have lots of features which make your post unique and "
+"completely different."
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:88 inc/metaboxes/np-post-metabox.php:88
+msgid "Available Sidebars"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:89 inc/metaboxes/np-post-metabox.php:89
+msgid ""
+"Select sidebar from available options which replaced sidebar layout from "
+"customizer settings."
+msgstr ""
+
+#: inc/metaboxes/np-post-metabox.php:16
+msgid "Post Meta Options"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:63
+msgid "Contact Form by WPForms – Drag & Drop Form Builder for WordPress"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:91
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:92
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:93
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/np-recommended-plugins.php:94
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/np-recommended-plugins.php:95
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:96
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:101
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:106
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:111
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:116
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:121
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:126
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:131
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:136
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/np-recommended-plugins.php:141
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:142
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:143
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:144
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:145
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:146
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:147
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:148
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/np-recommended-plugins.php:149
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:20
+msgid "You can place a banner as an advertisement with links."
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:22
+msgid "NP: Banner Ads"
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:35
+msgid "Banner title"
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:41
+msgid "Select banner image"
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:47
+msgid "Banner Link"
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:53
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/widgets/np-ads-banner.php:59
+msgid "Rel attribute for link"
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:20
+msgid "Displays block posts from selected category in different layouts."
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:22
+msgid "NP: Block Posts"
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:37 inc/widgets/np-carousel.php:37
+#: inc/widgets/np-featured-posts.php:37
+msgid "Block title"
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:38 inc/widgets/np-carousel.php:38
+#: inc/widgets/np-featured-posts.php:38
+msgid "Enter your block title. (Optional - Leave blank to hide the title.)"
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:44
+msgid "Block Category"
+msgstr ""
+
+#: inc/widgets/np-block-posts.php:52 inc/widgets/np-carousel.php:51
+msgid "Block Layouts"
+msgstr ""
+
+#: inc/widgets/np-carousel.php:20
+msgid "Displays posts from selected categories in carousel layouts."
+msgstr ""
+
+#: inc/widgets/np-carousel.php:22
+msgid "NP: Carousel"
+msgstr ""
+
+#: inc/widgets/np-carousel.php:44 inc/widgets/np-featured-posts.php:44
+msgid "Block Categories"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:20
+msgid "A widget shows recent posts and comment in tabbed layout."
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:22
+msgid "NP: Default Tabbed"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:35
+msgid "Latest Tab title"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:36 inc/widgets/np-default-tabbed.php:64
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:42
+msgid "Comments Tab title"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:43 inc/widgets/np-default-tabbed.php:65
+msgid "Comments"
+msgstr ""
+
+#: inc/widgets/np-default-tabbed.php:117
+msgid "&nbsp;commented on"
+msgstr ""
+
+#: inc/widgets/np-featured-posts.php:20
+msgid "Displays featured posts from selected categories in different layouts."
+msgstr ""
+
+#: inc/widgets/np-featured-posts.php:22
+msgid "NP: Featured Posts"
+msgstr ""
+
+#: inc/widgets/np-featured-slider.php:20
+msgid ""
+"Displays posts from selected categories in the slider with the featured "
+"section."
+msgstr ""
+
+#: inc/widgets/np-featured-slider.php:22
+msgid "NP: Featured Slider"
+msgstr ""
+
+#: inc/widgets/np-featured-slider.php:36
+msgid "Slider Categories"
+msgstr ""
+
+#: inc/widgets/np-featured-slider.php:43
+msgid "Featured Post Categories"
+msgstr ""
+
+#: inc/widgets/np-recent-posts.php:20
+msgid "A widget shows recent posts with thumbnail."
+msgstr ""
+
+#: inc/widgets/np-recent-posts.php:22
+msgid "NP: Recent Posts"
+msgstr ""
+
+#: inc/widgets/np-recent-posts.php:35 inc/widgets/np-social-media.php:35
+msgid "Widget title"
+msgstr ""
+
+#: inc/widgets/np-recent-posts.php:41
+msgid "No. of Posts"
+msgstr ""
+
+#: inc/widgets/np-social-media.php:20
+msgid "A widget shows the social media icons."
+msgstr ""
+
+#: inc/widgets/np-social-media.php:22
+msgid "NP: Social Media"
+msgstr ""
+
+#: inc/widgets/np-widget-fields.php:191
+msgid "No image selected"
+msgstr ""
+
+#: inc/widgets/np-widget-fields.php:198
+msgid "Remove"
+msgstr ""
+
+#: inc/widgets/np-widget-fields.php:199
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:24
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:26
+#: inc/widgets/np-widget-functions.php:41
+#: inc/widgets/np-widget-functions.php:71
+#: inc/widgets/np-widget-functions.php:86
+#: inc/widgets/np-widget-functions.php:101
+#: inc/widgets/np-widget-functions.php:116
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:54
+msgid "Header Ads"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:56
+msgid "Add banner widgets here."
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:69
+msgid "Home Top Section"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:84
+msgid "Home Middle Section"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:99
+msgid "Home Middle Aside"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:114
+msgid "Home Bottom Section"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:129
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: inc/widgets/np-widget-functions.php:131
+msgid "Added widgets are display at Footer Widget Area."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"News Portal is the ultimate magazine theme with creative design and powerful "
+"features that allow you to quickly and easily create a style to suit your "
+"needs. It is completely built on Customizer which allows you to customize "
+"most of the theme settings easily with live previews. It is the fully "
+"widgetized theme so as to let users manage the website using the easy to use "
+"widgets. News Portal Theme is the best choice to create a Beautiful &amp; "
+"Powerful News/magazine/blog websites with ease. Get free support at https:"
+"//mysterythemes.com/support/forum/themes/free-themes/ and check the demo at "
+"http://demo.mysterythemes.com/news-portal-landing/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://mysterythemes.com/wp-themes/news-portal"
+msgstr ""
+
+#. Author of the theme
+msgid "Mystery Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://mysterythemes.com"
+msgstr ""

@@ -1,0 +1,64 @@
+// main: style.scss
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__background-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	box-shadow: none;
+	color: $color__white;
+	@include font-size(0.85);
+	padding: 13px 20px;
+	cursor: pointer;
+	text-shadow: none;
+	width: 100%;
+	text-transform: uppercase;
+	&:hover {
+		background: $color__black;
+		border-color: $color__black;
+	}
+	&:active,
+	&:focus {
+		background: $color__black;
+		border-color: $color__black;
+		outline: none;
+	}
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	background: $color__white;
+	font-size: 14px;
+	margin: 0 0 10px;
+	width: 100%;
+	&:focus {
+		color: $color__text-input-focus;
+		outline: none;
+		border: 1px solid #a9a9a9;
+	}
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea  {
+	padding: 12px;
+}
+form {
+	label {
+		font-size: 14px;
+		font-weight: bold;
+		color: #333;
+		margin: 5px 0;
+		text-transform: uppercase;
+	}
+}

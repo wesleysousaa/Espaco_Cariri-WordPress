@@ -1,0 +1,101 @@
+/*
+Theme Name: Newsport
+Theme URI: https://afthemes.com/products/newsport/
+Author: AF themes
+Author URI: https://afthemes.com
+Description: Newsport is a child theme of CoverNews. The theme is coming with different main banner section layout as well as changes on essential title fonts and color setup. Furthermore, the theme also altered some of the frontpage layout's default value. With the help of available customizer options along with widgets, you can implement layouts as a clean and minimal blogging site, sport blog, fashion blog, photography blog, wedding blog & magazine and even more. The theme is SEO friendly with optimized code and outstanding support.
+See Demo: https://demo.afthemes.com/covernews/newsport/
+Support: https://afthemes.com/supports/
+Template: covernews
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newsport
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Newsport WordPress Theme, Copyright 2018 AF themes
+Newsport is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .main-navigation a,
+body .font-family-1,
+body .site-description,
+body .trending-posts-line,
+body .widget-title,
+body .em-widget-subtitle,
+body .grid-item-metadata .item-metadata,
+body .af-navcontrols .slide-count,
+body .figure-categories .cat-links,
+body .nav-links a {
+font-family: 'Archivo Narrow';
+}
+
+
+body .figure-categories .cat-links a.covernews-categories {
+    background-color: #0c4e7b;
+   
+}
+
+body .figure-categories .cat-links a.category-color-2 {
+    background-color: #009688;
+}
+
+body .figure-categories .cat-links a.category-color-3 {
+     background-color: #bb1919;
+}
+
+
+body .top-masthead {
+    background: #0c4e7b;
+}
+
+body .top-masthead a:hover,
+body .top-masthead a:visited,
+body .top-masthead a:active{
+    color: #fff;
+}
+
+body span.menu-description{
+        background: #bb1919;
+}
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .main-navigation,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li.active > a:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover{
+        background: #0c4e7b;
+}
+
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+        color: #0c4e7b;
+}
+
+body #loader:after {
+  border-left-color: #0c4e7b;
+}

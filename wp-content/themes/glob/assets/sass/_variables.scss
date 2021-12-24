@@ -1,0 +1,59 @@
+// main: style.scss
+// # Typography
+$font__main: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font__heading: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;;
+$font__line-height-headings: 1.2;
+$gutter: 30px;
+// # Structure
+$size__site-width: 1080px;
+// ## Font sizes
+$font__size-h1: 32px;
+$font__size-h2: 28px;
+$font__size-h3: 24px;
+$font__size-h4: 20px;
+$font__size-h5: 18px;
+$font__size-h6: 16px;
+$font__size-default: 1em;
+$font__size-content: 1.25em;
+$font__size-small: 0.9em;
+$font__size-smaller: 0.8em;
+$font__size_tiny: 0.7em;
+// ## Weights
+$font__weight-default: 400;
+$font__weight-bold: 700;
+// # Colors
+$color__primary: #fa4c2a;
+$color__border: #E3E3E3;
+$color__white: #fff;
+$color__light-grey: #EBEBEB;
+$color__mid-grey: #e3e3e3;
+$color__dark-grey: #666;
+$color__light-black: #494949;
+$color__black: #222;
+$color__background-body: $color__light-grey;
+$color__background-site: $color__white;
+$color__background-hr: $color__light-grey;
+$color__background-pre: $color__light-grey;
+$color__background-ins: $color__light-grey;
+$color__background-screen: $color__light-grey;
+$color__text-input: $color__light-black;
+$color__text-input-focus: $color__black;
+$color__text-screen: $color__primary;
+$color__text-main: $color__black;
+$color__text-headings: $color__black;
+$color__background-button: $color__primary;
+$color__background-button-hover: $color__light-grey;
+$color__background-button-focus: $color__mid-grey;
+$color__link: $color__light-black;
+$color__link-visited: $color__light-black;
+$color__link-hover: $color__primary;
+$color__border-abbr: $color__light-black;
+$color__border-button: $color__mid-grey;
+$color__border-button-hover: $color__light-black;
+$color__border-button-focus: $color__light-black;
+$color__border-input: $color__mid-grey;
+$color__border-input-focus: $color__light-black;

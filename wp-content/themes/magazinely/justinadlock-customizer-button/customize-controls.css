@@ -1,0 +1,40 @@
+#customize-controls .control-section-magazinely .accordion-section-title:hover,
+#customize-controls .control-section-magazinely .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-magazinely .accordion-section-title .button {
+	margin-top: -4px;
+	margin-left: 8px;
+	background: #00BC87;
+	color: #fff;
+	border-color: #00BC87;
+	font-weight: 600;
+}
+
+.rtl .control-section-magazinely .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+ul#sub-accordion-section-featured_posts_header .customize-inside-control-row label[for="_customize-input-featured_posts_toggle-radio-gridone"]:before {
+    background-image: url(https://b9w4c2c6.stackpathcdn.com/wp-content/uploads/2019/05/magazinely-gridone.png);
+    height: 90px;
+    width: 100%;
+    display: block;
+    content: ' ';
+    background-size: 150px;
+    background-repeat: no-repeat;
+    margin-top: -17px;
+}
+
+ul#sub-accordion-section-featured_posts_header .customize-inside-control-row label[for="_customize-input-featured_posts_toggle-radio-gridtwo"]:before {
+    background-image: url(https://b9w4c2c6.stackpathcdn.com/wp-content/uploads/2019/05/magazinely-grid-two.png);
+    height: 90px;
+    width: 100%;
+    display: block;
+    content: ' ';
+    background-size: 150px;
+    background-repeat: no-repeat;
+    margin-top: -17px;
+}

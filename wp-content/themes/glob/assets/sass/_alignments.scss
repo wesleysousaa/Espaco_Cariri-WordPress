@@ -1,0 +1,16 @@
+// main: style.scss
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+	margin-bototm: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+	margin-bototm: 1.5em;
+}
+.aligncenter {
+	@include center-block;
+}

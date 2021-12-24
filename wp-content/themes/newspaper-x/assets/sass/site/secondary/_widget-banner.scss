@@ -1,0 +1,33 @@
+.newspaper-x-image-banner {
+  text-align: center;
+  a {
+    display: inline-block;
+    margin: 0 0 15px 0;
+
+    > img {
+      width: 100%;
+    }
+  }
+  > img {
+    display: inline-block;
+  }
+}
+.widget_newspaper_x_banner{
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .newspaper-x-content {
+    .newspaper-x-image-banner {
+      display: none;
+    }
+  }
+  .before-content-area {
+    .newspaper-x-image-banner {
+      display: none;
+    }
+  }
+  .header-banner {
+    display: none;
+  }
+}
+

@@ -1,0 +1,166 @@
+/*
+Theme Name:     News Portal Mag
+Theme URI:      https://mysterythemes.com/wp-themes/news-portal-mag
+Author:         Mystery Themes
+Author URI:     https://mysterythemes.com
+Description:    News Portal Mag is child theme of News Portal. This is ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a style to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. News Portal Mag Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease. Get free support at https://mysterythemes.com/support/forum/themes/child-themes/ and check the demo at http://demo.mysterythemes.com/child-theme/news-portal-mag/
+Version:        1.0.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       news-portal
+Text Domain:    news-portal-mag
+Tags:           news, blog, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-colors, custom-logo, featured-image-header, footer-widgets, full-width-template, rtl-language-support, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+/*--------------------------------------------------------------
+Full Width Widget CSS
+--------------------------------------------------------------*/
+h1,h2,h3, h4, h5{
+	font-family: 'Taviraj', serif;
+	line-height: 1.6;
+}
+
+.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper{
+  margin-left: -2%;
+}
+
+.news_portal_mag_fullwidth_posts .np-single-post {
+  float: left;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  width: 31.33%;
+}
+
+.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper.col-2 .np-single-post{
+    width: 48%;
+}
+
+.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper.col-4 .np-single-post{
+    width: 23%;
+}
+
+.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper.col-5 .np-single-post{
+    width: 18%;
+}
+
+.news_portal_mag_fullwidth_posts .np-single-post .np-post-content .np-post-title a{
+    color: #333;
+}
+
+/*Hover Effect*/
+.np-image-zoomin .np-post-thumb img, 
+.np-image-zoomin .np-slide-thumb img {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.np-post-thumb:hover img, 
+.np-slide-thumb:hover img {
+	-webkit-transform: scale(1.05) rotate(0deg);
+	-ms-transform: scale(1.05) rotate(0deg);
+	-o-transform: scale(1.05) rotate(0deg);
+	transform: scale(1.05) rotate(0deg);
+	opacity: 0.8;
+}
+
+.np-block-title-nav-wrap .carousel-nav-action {
+	z-index: 9;
+}
+
+/*--------------------------------------------------------------
+Header Layout 2 CSS
+--------------------------------------------------------------*/
+.search-main,
+.np-home-icon a,
+#site-navigation ul li a {
+	color: #333333 !important;
+}
+
+#masthead .np-home-icon a:hover,
+.home #masthead .np-home-icon a{
+    color: #fff !important;
+}
+
+#masthead .np-header-menu-wrapper .mt-container::before{
+    display: none;
+}
+
+.np-header-menu-wrapper,  
+#masthead #site-navigation ul.sub-menu,
+ #masthead #site-navigation ul.children, 
+ #masthead .np-header-menu-block-wrap{
+  background: #f2f2f2 none repeat scroll 0 0;
+}
+
+#masthead #site-navigation ul li:hover > a, 
+#masthead #site-navigation ul li.current-menu-item > a, 
+#masthead #site-navigation ul li.current_page_item > a, 
+#masthead #site-navigation ul li.current-menu-ancestor > a{
+	color: #fff !important;
+}
+
+#colophon {
+	color: #f2f2f2;
+}
+
+
+/*responsive*/
+
+@media (max-width: 768px) {
+	#masthead .menu-toggle {
+		color: #333 !important;
+	}
+
+	#masthead  #site-navigation, 
+	#masthead  .main-small-navigation li.current-menu-item > .sub-toggle i {
+		background: #f2f2f2 !important;
+	}
+
+	.middle-aside .news_portal_featured_posts .np-single-post-wrap .np-post-content {
+		width: 74%;
+	}
+
+	.middle-aside .news_portal_featured_posts .np-single-post-wrap .np-post-thumb {
+		width: 20%;
+	}
+
+	.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper.col-4 .np-single-post{
+	    width: 47%;
+	}
+
+	.news_portal_mag_fullwidth_posts .np-fullwidth-grid-wrapper.col-5 .np-single-post{
+	    width: 23%;
+	}
+
+}
+
+@media (max-width: 600px) {
+    .news_portal_mag_fullwidth_posts .np-single-post {
+        width: 97% !important;
+    }
+
+   .news_portal_featured_posts .np-single-post-wrap .np-post-thumb {
+		width: 34%;
+	}
+
+	.news_portal_featured_posts .np-single-post-wrap .np-post-content {
+		width: 60%;
+	}
+}
+
+@media (max-width: 480px) {
+	.np-ticker-block .ticker-content-wrapper .post-cats-list {
+		display: none;
+	}
+}
+

@@ -1,0 +1,464 @@
+# Translation of Themes - Envo Magazine in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Envo Magazine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-11 17:38:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Envo Magazine\n"
+
+#. Description of the plugin/theme
+msgid "Envo Magazine is a fast, clean, and modern-looking responsive magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Envo Magazine is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals, and any creative website. Envo Magazine is SEO friendly, WPML, translation and RTL ready. DEMO: https://envothemes.com/envo-magazine/"
+msgstr "A Envo Magazine é um tema WordPress de revista responsivo, rápido, limpo e moderno. O tema é totalmente widgetizado, para que os usuários possam gerenciar o conteúdo usando widgets fáceis de usar. A Envo Magazine é adequada para notícias dinâmicas, jornais, revistas, editoras, blogs, editores, revistas on-line e jogos, portais de notícias e qualquer outro site que se possa imaginar. Envo Magazine amigável ao SEO, WPML, tradução e RTL já prontos. DEMO: https://envothemes.com/envo-magazine/"
+
+#. Theme Name of the plugin/theme
+msgid "Envo Magazine"
+msgstr "Envo Magazine"
+
+#: includes/widgets/featured-column-news.php:22
+msgid "Envo Magazine: Featured News column"
+msgstr "Envo Magazine: coluna Notícias em destaque"
+
+#: includes/widgets/featured-column-news.php:205
+#: includes/widgets/mix-column-news.php:209
+#: includes/widgets/one-column-news.php:178
+#: includes/widgets/split-images-news.php:180
+#: includes/widgets/three-column-news.php:168
+#: includes/widgets/two-column-news.php:327
+msgid "To hide it, leave this field empty."
+msgstr "Para ocultá-lo, deixe este campo vazio."
+
+#: includes/widgets/mix-column-news.php:222
+msgid "Small posts excerpt length:"
+msgstr "Comprimento dos resumos nos posts pequenos:"
+
+#: lib/customizer/info.php:11
+msgid "Video Documentation & Demo"
+msgstr "Vídeo documentação e demo"
+
+#. translators: %s: "demos here" string
+#: lib/customizer/info.php:25
+msgid "You can use this theme to create a website like these %1$s"
+msgstr "Você pode usar esse tema para criar um site como estes %1$s"
+
+#: lib/customizer/info.php:25
+msgid "demos"
+msgstr "demos"
+
+#. translators: %s: "documentation" string
+#: lib/customizer/info.php:28
+msgid "For step-by-step videos and text tutorials, see %1$s"
+msgstr "Para vídeos passo a passo e tutoriais de texto, veja %1$s"
+
+#: lib/customizer/info.php:28
+msgid "documentation"
+msgstr "Documentação"
+
+#: lib/customizer/info.php:143 lib/dashboard.php:113
+msgid "PRO version"
+msgstr "Versão PRO"
+
+#: lib/customizer/info.php:145
+msgid "View PRO version"
+msgstr "Conheça a versão PRO"
+
+#: lib/dashboard.php:28
+msgid "Envo Magazine theme"
+msgstr "Tema Envo Magazine"
+
+#: lib/dashboard.php:30
+msgid "Envo Magazine dashboard"
+msgstr "Painel Envo Magazine"
+
+#. translators: %1$s: theme name, %2$s theme version
+#. translators: %1$s theme name, %2$s theme version
+#: lib/dashboard.php:51 lib/dashboard.php:107
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Bem-vindo ao %1$s - Versão %2$s"
+
+#. translators: %1$s: theme name, %2$s link
+#: lib/dashboard.php:58
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr "Bem vind@! Obrigado por escolher %1$s! Para aproveitar ao máximo o melhor que o nosso tema pode oferecer, certifique-se de visitar nossa  <a href=\"%2$s\">página de boas-vindas</a>"
+
+#. translators: %s theme name
+#: lib/dashboard.php:66
+msgid "Get started with %s"
+msgstr "Comece com %s"
+
+#: lib/dashboard.php:122
+msgid "Theme Customizer"
+msgstr "Personalizador de Tema"
+
+#. translators: %s theme name
+#: lib/dashboard.php:126
+msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to personalize your site."
+msgstr "%s suporta o Personalizador de Tema para todas as configurações do tema. Clique em \"Personalizar\" para personalizar seu site."
+
+#: lib/dashboard.php:130
+msgid "Start customizing"
+msgstr "Comece a personalizar"
+
+#: lib/dashboard.php:134
+msgid "Theme documentation"
+msgstr "Documentação do tema"
+
+#. translators: %s theme name
+#: lib/dashboard.php:138
+msgid "Need help in setting up and configuring %s? Please take a look at our documentation page."
+msgstr "Precisa de ajuda para instalar e configurar %s? Dê uma olhada na nossa página de documentação."
+
+#. translators: %s theme name
+#: lib/dashboard.php:145
+msgid "%s Documentation"
+msgstr "%s Documentação"
+
+#: lib/dashboard.php:151
+msgid "Having trouble? Need support?"
+msgstr "Problemas? Precisa de suporte?"
+
+#: lib/dashboard.php:153
+msgid "Contact us"
+msgstr "Contate-nos"
+
+#: lib/dashboard.php:168
+msgid "To get these awesome features, upgrade to Envo Magazine PRO!"
+msgstr "Para obter esses recursos incríveis, atualize para a Envo Magazine PRO!"
+
+#: lib/dashboard.php:174
+msgid "Unlimited colors"
+msgstr "Cores ilimitadas"
+
+#: lib/dashboard.php:175
+msgid "600+ Google fonts"
+msgstr "600+ Fontes do Google"
+
+#: lib/dashboard.php:176
+msgid "New homepage widgets"
+msgstr "Widgets da nova página inicial"
+
+#: lib/dashboard.php:177
+msgid "Advertising spaces"
+msgstr "Espaços publicitários"
+
+#: lib/dashboard.php:178
+msgid "Mega Menu support"
+msgstr "Suporte Mega Menu"
+
+#: lib/dashboard.php:179
+msgid "Footer credits editor"
+msgstr "Editor de créditos de rodapé"
+
+#: lib/dashboard.php:180
+msgid "And much more..."
+msgstr "E muito mais..."
+
+#: lib/dashboard.php:184
+msgid "Envo Magazine PRO"
+msgstr "Envo Magazine PRO"
+
+#: 404.php:12
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que nada foi encontrado neste endereço. Que tal tentar fazer uma pesquisa?"
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#. translators: %1$s: link to admin area
+#: content-none.php:8
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+
+#: content-none.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nada foi encontrado com os termos da sua pesquisa. Tente novamente com algumas palavras-chaves diferentes."
+
+#: content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Aparentemente não conseguimos encontrar o que você está procurando. Talvez uma busca ajude."
+
+#: functions.php:608
+msgid "By"
+msgstr "Por"
+
+#: functions.php:20
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: functions.php:21
+msgid "Top Menu left"
+msgstr "Menu do topo à esquerda"
+
+#: functions.php:22
+msgid "Top Menu right"
+msgstr "Menu do topo à direita"
+
+#: functions.php:253
+msgid "Homepage Full Width Section #1"
+msgstr "Página inicial de seção de tamanho total #1"
+
+#: functions.php:263
+msgid "Homepage Row #1 - 2/3 Section"
+msgstr "Linha da página inicial #1 - 2/3 de seção"
+
+#: functions.php:273
+msgid "Homepage Row #1 - 1/3 Section"
+msgstr "Linha da página inicial #1 - 1/3 de seção"
+
+#: functions.php:283
+msgid "Homepage Full Width Section #2"
+msgstr "Página inicial de seção de tamanho total #2"
+
+#: functions.php:293
+msgid "Homepage Row #2 - 2/3 Section"
+msgstr "Linha da página inicial #2 - 2/3 de seção"
+
+#: functions.php:303
+msgid "Homepage Row #2 - 1/3 Section"
+msgstr "Linha da página inicial #2 - 1/3 de seção"
+
+#: functions.php:313
+msgid "Homepage Full Width Section #3"
+msgstr "Página inicial de seção de tamanho total #3"
+
+#: functions.php:323
+msgid "Right Sidebar"
+msgstr "Barra lateral direita"
+
+#: functions.php:333
+msgid "Header Section"
+msgstr "Seção de cabeçalho"
+
+#: functions.php:343
+msgid "Footer Section"
+msgstr "Seção de rodapé"
+
+#: functions.php:387
+msgid "Category"
+msgstr "Categoria"
+
+#: functions.php:391
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: %s: WordPress name with wordpress.org URL
+#: functions.php:415
+msgid "Proudly powered by %s"
+msgstr "Orgulhosamente mantido com %s"
+
+#: functions.php:415
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %1$s: Envo Magazine name with envothemes.com URL
+#: functions.php:420
+msgid "Theme: %1$s"
+msgstr "Tema: %1$s"
+
+#: functions.php:471
+msgid "Off"
+msgstr "Off"
+
+#: functions.php:473
+msgid "Comment on "
+msgstr "Comentar"
+
+#: includes/widgets/featured-column-news.php:19
+msgid "Widget to display big post on left side, and small posts on the right"
+msgstr "Widget para exibir um post grande no lado esquerdo e pequenos posts à direita"
+
+#: functions.php:623 includes/widgets/featured-column-news.php:172
+#: includes/widgets/mix-column-news.php:175
+#: includes/widgets/one-column-news.php:145
+#: includes/widgets/three-column-news.php:136
+#: includes/widgets/two-column-news.php:275
+msgid "View All"
+msgstr "Ver tudo"
+
+#: includes/widgets/featured-column-news.php:179
+#: includes/widgets/mix-column-news.php:183
+#: includes/widgets/one-column-news.php:152
+#: includes/widgets/popular-posts.php:102 includes/widgets/recent-posts.php:100
+#: includes/widgets/split-images-news.php:154
+#: includes/widgets/three-column-news.php:142
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/widgets/featured-column-news.php:185
+#: includes/widgets/mix-column-news.php:189
+#: includes/widgets/one-column-news.php:158
+#: includes/widgets/split-images-news.php:160
+#: includes/widgets/three-column-news.php:148
+msgid "Category:"
+msgstr "Categoria:"
+
+#: includes/widgets/featured-column-news.php:195
+#: includes/widgets/mix-column-news.php:199
+#: includes/widgets/one-column-news.php:168
+#: includes/widgets/split-images-news.php:170
+#: includes/widgets/three-column-news.php:158
+#: includes/widgets/two-column-news.php:296
+#: includes/widgets/two-column-news.php:317
+msgid "All Categories"
+msgstr "Todas as categorias"
+
+#: includes/widgets/featured-column-news.php:202
+#: includes/widgets/mix-column-news.php:206
+#: includes/widgets/one-column-news.php:175
+#: includes/widgets/split-images-news.php:177
+#: includes/widgets/three-column-news.php:165
+#: includes/widgets/two-column-news.php:324
+msgid "View all text:"
+msgstr "Ver todo texto:"
+
+#: includes/widgets/featured-column-news.php:211
+#: includes/widgets/one-column-news.php:183
+#: includes/widgets/two-column-news.php:333
+msgid "Excerpt length:"
+msgstr "Comprimento de trecho:"
+
+#: includes/widgets/featured-column-news.php:217
+#: includes/widgets/mix-column-news.php:228
+#: includes/widgets/one-column-news.php:188
+#: includes/widgets/popular-posts.php:108 includes/widgets/recent-posts.php:106
+#: includes/widgets/split-images-news.php:185
+#: includes/widgets/three-column-news.php:173
+#: includes/widgets/two-column-news.php:339
+msgid "Number of posts:"
+msgstr "Número de posts:"
+
+#: includes/widgets/mix-column-news.php:19
+msgid "Widget to display news in mix columns layout. First post in full column and other in two columns"
+msgstr "Widget para exibir notícias em layout de colunas misturadas. Primeiro post na coluna completa e outro em duas colunas"
+
+#: includes/widgets/mix-column-news.php:22
+msgid "Envo Magazine: Mix Column News"
+msgstr "Envo Magazine: coluna de notícias misturadas"
+
+#: includes/widgets/mix-column-news.php:215
+msgid "First excerpt length:"
+msgstr "Comprimento do primeiro resumo:"
+
+#: includes/widgets/one-column-news.php:17
+msgid "Widget to display news in one column layout."
+msgstr "Widget para exibir notícias em layout de coluna."
+
+#: includes/widgets/one-column-news.php:20
+msgid "Envo Magazine: One column news"
+msgstr "Envo Magazine: Uma coluna de notícias"
+
+#: includes/widgets/popular-posts.php:19
+msgid "Widget to display popular posts with thumbnail and date. Recommended to be used in sidebar or footer."
+msgstr "Widget para exibir posts populares com miniatura e data. Recomendado para ser usado na barra lateral ou no rodapé."
+
+#: includes/widgets/popular-posts.php:22
+msgid "Envo Magazine: Popular posts"
+msgstr "Envo Magazine: Posts populares"
+
+#: functions.php:672 includes/widgets/popular-posts.php:97
+msgid "Popular posts"
+msgstr "Posts populares"
+
+#: includes/widgets/recent-posts.php:19
+msgid "Widget to display recent posts with thumbnail and date. Recommended to be used in sidebar or footer."
+msgstr "Widget para exibir posts recentes com miniatura e data. Recomendado para ser usado na barra lateral ou no rodapé."
+
+#: includes/widgets/recent-posts.php:22
+msgid "Envo Magazine: Recent posts"
+msgstr "Envo Magazine: Posts recentes"
+
+#: functions.php:655 includes/widgets/recent-posts.php:95
+msgid "Recent Posts"
+msgstr "Posts recentes"
+
+#: includes/widgets/split-images-news.php:17
+#: includes/widgets/three-column-news.php:17
+msgid "Widget to display news in a three-columns layout."
+msgstr "Widget para exibir notícias em layout de de três colunas."
+
+#: includes/widgets/split-images-news.php:20
+msgid "Envo Magazine: Split Images News"
+msgstr "Envo Magazine: Dividir imagens das notícias"
+
+#: includes/widgets/three-column-news.php:20
+msgid "Envo Magazine: Three-column news"
+msgstr "Envo Magazine: Notícias em três colunas"
+
+#: includes/widgets/two-column-news.php:17
+msgid "Widget to display news in two columns."
+msgstr "Widget para exibir notícias em duas colunas"
+
+#: includes/widgets/two-column-news.php:20
+msgid "Envo Magazine: Two-columns news"
+msgstr "Envo Magazine: Notícias em duas colunas"
+
+#: includes/widgets/two-column-news.php:282
+msgid "First column title:"
+msgstr "Título da primeira coluna:"
+
+#: includes/widgets/two-column-news.php:286
+msgid "First column category:"
+msgstr "Categoria da primeira coluna:"
+
+#: includes/widgets/two-column-news.php:303
+msgid "Second column title:"
+msgstr "Título da segunda coluna:"
+
+#: includes/widgets/two-column-news.php:307
+msgid "Second column category:"
+msgstr "Categoria da segunda coluna:"
+
+#. translators: %s: search result string
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr "Resultados da busca por: %s"
+
+#: template-parts/template-part-postauthor.php:4
+msgid "About The Author"
+msgstr "Sobre o Autor"
+
+#: template-parts/template-part-topnav.php:7
+msgid "Toggle navigation"
+msgstr "Alternar navegação"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Página inicial"
+
+#. translators: %1$s: number of comments
+#: comments.php:17
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s Comentário"
+msgstr[1] "%1$s Comentários"
+
+#: functions.php:181
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr "Ligado"
+
+#: 404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Essa página não pode ser encontrada."
+
+#. Theme URI of the plugin/theme
+msgid "https://envothemes.com/free-envo-magazine/"
+msgstr "https://envothemes.com/free-envo-magazine/"
+
+#. Author of the plugin/theme
+msgid "EnvoThemes"
+msgstr "EnvoThemes"
+
+#. Author URI of the plugin/theme
+msgid "https://envothemes.com/"
+msgstr "https://envothemes.com/"

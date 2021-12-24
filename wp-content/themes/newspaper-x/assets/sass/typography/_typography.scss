@@ -1,0 +1,53 @@
+body,
+button,
+input,
+select,
+textarea {
+  color: $color__text-main;
+  font-family: $font__main;
+  line-height: $font__line-height-body;
+}
+
+p {
+  font-size: 15px;
+  font-family: $font__main;
+  color: #8c9597;
+  line-height: 25px;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+article.post p {
+  font-size: 15px;
+  font-family: $font__main;
+  color: #8b8d91;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.single-post {
+  div.entry-content > p:first-child:first-letter {
+    float: left;
+    font-size: 86px;
+    line-height:75px;
+    text-align: left;
+    padding-right: 15px;
+    display: inline-block;
+  }
+}
+
+a {
+  color: $color_main-accent;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $color_contrast-hover;
+  }
+}
+
+@import "headings";
+
+@import "copy";

@@ -1,0 +1,146 @@
+/*
+Theme Name: Sportion
+Theme URI: https://afthemes.com/products/sportion/
+Author: AF themes
+Author URI: https://afthemes.com
+Requires at least: WordPress 4.0
+Requires PHP: 5.6
+Tested up to: WordPress 5.4
+Description:  Sportion is a Newsphere child theme that is a ideal news and WordPress theme responsive magazine that allows you to easily write articles and blog posts.The child theme for the primary banner section comes with distinct design and color as well as added fresh background color for the primary navigation. Make an exceptional news site the assistance of live customizer choices and custom widgets, you can structure your site as you like and see the progressions live. It is compatible with the Gutenberg and RTL alongside WooCommerce module which encourages you to coordinate an online business with our layout. As it incorporates numerous helpful highlights that require to construct a magnificent looking newsportal, the theme is ideal for blogging and incredible for a newspaper, magazine, distributing or review website. The theme is all around enhanced that positions your site in the highest point of web indexes and users will get an exceptional help from the support team if there will be any troubles while utilizing the theme.
+ See Demo: https://demo.afthemes.com/newsphere/sportion/
+ Support: https://afthemes.com/supports/
+Template: newsphere
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sportion
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Sportion WordPress Theme, Copyright 2018 AF themes
+Sportion is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+body.aft-default-mode .bottom-bar {
+    background-color: #103158;
+}
+
+body.aft-default-mode .inner-suscribe input[type=submit],
+body.aft-default-mode #scroll-up,
+body.aft-default-mode .trending-posts-vertical .trending-no,
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li.active,
+body.aft-default-mode .aft-main-banner-wrapper span.trending-no,
+body.aft-default-mode .read-img .min-read-post-comment,
+body.aft-default-mode .aft-home-icon {
+    background-color: #af0000;
+}
+
+body.aft-default-mode .read-img .min-read-post-comment:after{
+    border-top-color: #af0000;
+}
+
+
+bodybody.aft-default-mode  .sticky .read-title h4 a:before {
+    color: #af0000;
+}
+
+
+body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a:hover,
+body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a,
+body.aft-default-mode .related-title,
+body.aft-default-mode .widget-title span, body.aft-default-mode .header-after1 span{
+    border-bottom-color: #af0000;
+}
+
+body .aft-trending-latest-popular .nav-tabs li {
+    background-color: #fff;
+
+}
+
+body .aft-trending-latest-popular .nav-tabs>li>a{
+    color: #404040;
+}
+
+.aft-trending-latest-popular .nav-tabs>li>a:hover{
+    color: #af0000;
+}
+
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-1,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-1,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-2,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-2,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-3,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-3,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-4,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-4,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-5,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-5,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-6,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-6,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-7,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-7,
+body.aft-default-mode .af-sp-wave:before, body.aft-default-mode .af-sp-wave:after ,
+body.aft-default-mode .af-video-slider .swiper-slide.selected{
+    border-color: #af0000;
+}
+
+body.aft-default-mode .inner-suscribe input[type=submit], body.aft-default-mode #scroll-up, body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li.active>a:hover, body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li.active>a, body.aft-default-mode .read-img .min-read-post-comment a, body.aft-default-mode .aft-home-icon a, body.aft-default-mode .aft-main-banner-wrapper span.trending-no, body.aft-default-mode .trending-posts-vertical .trending-no{
+    color: #fff;
+}
+
+
+body.aft-light-mode.aft-transparent-main-banner-box .aft-main-banner-section .aft-trending-latest-popular li.af-double-column.list-style:before, body.aft-dark-mode.aft-transparent-main-banner-box .aft-main-banner-section .aft-trending-latest-popular li.af-double-column.list-style:before, body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .aft-trending-latest-popular li.af-double-column.list-style:before, body.aft-light-mode.aft-transparent-main-banner-box .aft-main-banner-section .read-single.color-pad:before, body.aft-dark-mode.aft-transparent-main-banner-box .aft-main-banner-section .read-single.color-pad:before, body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .read-single.color-pad:before{
+    background-color: #fff;
+}
+
+.aft-main-banner-section .color-pad .entry-meta span, .banner-carousel-1 .read-details .entry-meta span.byline a{
+    color: #404040;
+}
+
+body .aft-blocks.banner-carousel-1-wrap {
+    background-color: #e8e8e8;
+}
+
+body.aft-default-mode .aft-main-banner-section .read-single.color-pad, .aft-main-banner-section .read-single.color-pad{
+    background-color: #fff;
+}
+
+body .aft-main-banner-section .color-pad .read-title h4 a{
+    color: #404040;
+}
+
+.aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-1,
+.main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-1
+{
+   color: #af0000;
+    border-color: #ffbf3f;
+}
+
+.aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-2,
+.main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-2{
+    color: #404040;
+    border-color: #ffbf3f;
+}
+
+.aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-3,
+.main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-3{
+    color: #d27f05;
+    border-color: #ffbf3f;
+}
+
+body .color-pad .cat-links li a.newsphere-categories.category-color-1,
+a.newsphere-categories.category-color-1 {
+    border-color: #ffbf3f;
+}
+
+.main-navigation .menu-description {
+    background-color: #af0000;
+    color: #ffffff;
+}
+
+.main-navigation .menu-description:after{
+    border-top: 5px solid #af0000;
+}

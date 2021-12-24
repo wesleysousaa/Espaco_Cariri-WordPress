@@ -1,0 +1,121 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: News Portal Mag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-25 16:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: widgets/fullwidth-posts.php:44
+msgid "Block Categories"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:37
+msgid "Block title"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:70
+msgid "Categories Lists"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:55
+msgid "Columns 2"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:56
+msgid "Columns 3"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:57
+msgid "Columns 4"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:58
+msgid "Columns 5"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:20
+msgid "Displays fullwidth posts from selected categories in different layouts."
+msgstr ""
+
+#: widgets/fullwidth-posts.php:38
+msgid "Enter your block title. (Optional - Leave blank to hide title.)"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:64
+msgid "Featured Posts Settings"
+msgstr ""
+
+#: functions.php:65
+msgid "Header Text Color"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:75
+msgid "Hide"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://mysterythemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://mysterythemes.com/wp-themes/news-portal-mag"
+msgstr ""
+
+#. Author of the theme
+msgid "Mystery Themes"
+msgstr ""
+
+#. Name of the theme
+msgid "News Portal Mag"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"News Portal Mag is child theme of News Portal. This is ultimate magazine "
+"theme with creative design and powerful features that allow you to quickly "
+"and easily create a style to suit your needs. It is completely built on "
+"Customizer which allows you to customize most of the theme settings easily "
+"with live previews. It is the fully widgetized theme so as to let users "
+"manage the website using the easy to use widgets. News Portal Mag Theme is "
+"the best choice to create a Beautiful &amp; Powerful News/magazine/blog "
+"websites with ease. Get free support at https://mysterythemes."
+"com/support/forum/themes/child-themes/ and check the demo at http://demo."
+"mysterythemes.com/child-theme/news-portal-mag/"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:51
+msgid "No. of Columns"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:81
+msgid "No. of Posts"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:22
+msgid "NP: FullWidth Posts"
+msgstr ""
+
+#: widgets/fullwidth-posts.php:74
+msgid "Show"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: functions.php:90
+msgctxt "Taviraj font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:40
+msgid "Theme Color"
+msgstr ""

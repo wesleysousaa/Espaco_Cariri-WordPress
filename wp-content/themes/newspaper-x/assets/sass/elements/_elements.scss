@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+body {
+  background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+  margin: 0;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 50px 40px 20px 40px;
+  background: $color_main-accent;
+  p {
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 20px;
+    border: none !important;
+  }
+
+}
+
+q {
+  display: inline-block;
+  font-style: italic;
+  width: initial;
+  color: $color_brand-newspaper-x;
+}
+
+article.post {
+  blockquote {
+    p {
+      font-family: $font__main;
+      font-size: 20px;
+      font-style: italic;
+      text-align: center;
+      font-weight: 300;
+      &::after {
+        content: '';
+        width: 78px;
+        height: 1px;
+        background: #fff;
+        display: block;
+        margin: 20px auto 0px auto;
+      }
+    }
+  }
+}
+
+hr {
+  background-color: $color__background-hr;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
+
+.blazy {
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  /* this is needed so Safari keeps sharp edges */
+  @include transform(scale(1));
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  &.b-loaded {
+    -webkit-filter: initial;
+    filter: initial;
+    @include transform(initial);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+}
+
+li.blazy {
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
+.entry-content p {
+  overflow: hidden;
+}
+
+.pagination {
+  .page-numbers {
+    padding: 10px;
+    font-family: $font__main;
+    color: #8b8d91;
+    font-size: 14px;
+    &.current {
+      color: $color_main-accent;
+      &:hover {
+        color: $color_contrast-hover;
+      }
+    }
+    &:hover,
+    &:focus {
+      color: $color_contrast-hover;
+    }
+    &:active {
+      color: #333333;
+    }
+    .fa-angle-right {
+      margin-left: 20px;
+    }
+    .fa-angle-left {
+      margin-right: 20px;
+    }
+  }
+}
+
+ul {
+  &.children {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+[class^='customize-partial-edit-shortcut-widget-newspaper_x_header_module'],
+[class*=' customize-partial-edit-shortcut-widget-newspaper_x_header_module'] {
+  left: 50%;
+}
+
+.customize-partial-edit-shortcut-newspaper_x_header_bg {
+  right: 0;
+}

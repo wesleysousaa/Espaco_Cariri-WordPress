@@ -1,0 +1,151 @@
+/*=================================================
+            Basic widget design
+=================================================*/
+span.field-label {
+    background: #e6e6e6;
+    display: block;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*=================================================
+            Upload image section on widget
+=================================================*/
+.widget-content .attachment-media-view{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+.widget-content .placeholder{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+}
+.widget-content .actions{
+    margin-top: 8px;
+}
+/*=================================================
+            Selector section on widget
+=================================================*/
+.widget-content .selector-labels label {
+    display: inline-block;
+    padding: 10px 5px 0;
+    position: relative;
+    max-width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.widget-content .selector-labels label.selector-selected:after {
+    content: "";
+    height: 35px;
+    width: 35px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background: url(../images/selected.png) no-repeat right top;
+}
+
+/*=================================================
+            Meta Box section
+=================================================*/
+
+#news_portal_post_meta ul.np-meta-menu-wrapper,
+#news_portal_page_meta ul.np-meta-menu-wrapper {
+  border-right: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  width: 22%;
+}
+/*.np-single-meta {
+    display: none;
+}*/
+.np-single-meta.active {
+    display: block;
+}
+.np-meta-tab span.dashicons {
+    margin-right: 7px;
+}
+.np-meta-menu-wrapper li {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+}
+.np-meta-menu-wrapper li:last-child {
+    border-bottom: none;
+}
+
+.np-metabox-content-wrapper .np-single-meta {
+    display: none;
+}
+
+.np-metabox-content-wrapper {
+  box-sizing: border-box;
+  float: right;
+  margin-left: 0;
+  padding: 0;
+  width: 76%;
+}
+
+.np-meta-container {
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin: 20px 0;
+}
+
+.np-meta-menu-wrapper li.active {
+    color: #008ec2;
+}
+
+/*=================================================
+            Radio Image Control
+=================================================*/
+.np-meta-options-wrap .ui-button {
+    margin:        0;
+    border-radius: 0;
+    border:        none;
+    background:    transparent;
+}
+
+.np-meta-options-wrap .ui-button-text { padding: 0; }
+
+.np-meta-options-wrap img {
+    box-sizing: border-box;
+    max-width:  100%;
+    height:     auto;
+    padding:    1px;
+    border:     4px solid transparent;
+}
+
+.np-meta-options-wrap img:hover,
+.np-meta-options-wrap img:focus {
+    border-color: #ddd;
+}
+
+.np-meta-options-wrap .ui-state-active img {
+    border-color: #00a0d2;
+}
+
+.np-clearfix:before,
+.np-clearfix:after {
+    content: '';
+    display: table;
+}
+
+.np-clearfix:after {
+    clear: both;
+}

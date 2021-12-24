@@ -1,0 +1,618 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Newspaper Magazine\n"
+"POT-Creation-Date: 2017-10-30 11:15-0200\n"
+"PO-Revision-Date: 2017-01-17 13:05-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;eschtml_e;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: tasks\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: 404.php:42
+msgid "Ooops... Error 404"
+msgstr ""
+
+#: 404.php:46
+msgid "Sorry, but the page you are looking for doesn&rsquo;t exist."
+msgstr ""
+
+#: 404.php:49
+msgid "You can go to"
+msgstr ""
+
+#: 404.php:52
+msgid "Home Page"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:48
+msgid "Top"
+msgstr ""
+
+#: functions.php:114
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:116
+msgid "Add Sidebar Widgets Here."
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar Default"
+msgstr ""
+
+#: functions.php:125
+msgid "Default Sidebar Widgets Here."
+msgstr ""
+
+#: functions.php:133
+msgid "Highlight Widget Area"
+msgstr ""
+
+#: functions.php:135
+msgid "Add \"Main Highlight\" and \"Slider Highlight\" widgets here."
+msgstr ""
+
+#: functions.php:143
+msgid "Front Page Widget Area Top"
+msgstr ""
+
+#: functions.php:145 functions.php:155
+msgid "Add Front Page Widgets Here."
+msgstr ""
+
+#: functions.php:153
+msgid "Front Page Widget Area Bottom"
+msgstr ""
+
+#: functions.php:163
+msgid "Header Widget Area"
+msgstr ""
+
+#: functions.php:165
+msgid "Add Advertisement Here."
+msgstr ""
+
+#: functions.php:173
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:175
+msgid "Add Footer Widgets Here"
+msgstr ""
+
+#: inc/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:758 inc/breadcrumbs.php:787 inc/breadcrumbs.php:814
+#: inc/breadcrumbs.php:841 inc/breadcrumbs.php:1180
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:759 inc/breadcrumbs.php:815 inc/breadcrumbs.php:1184
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:760 inc/breadcrumbs.php:1188
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class.php:40
+msgid "Select"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Newspaper Magazine Pro"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/filters.php:14
+msgid "Full Name*"
+msgstr ""
+
+#: inc/filters.php:15
+msgid "Full Name"
+msgstr ""
+
+#: inc/filters.php:19
+msgid "Email Address*"
+msgstr ""
+
+#: inc/filters.php:20
+msgid "Email"
+msgstr ""
+
+#: inc/filters.php:24 inc/filters.php:25
+msgid "Website"
+msgstr ""
+
+#: inc/filters.php:37
+msgid "comment_news"
+msgstr ""
+
+#: inc/filters.php:38
+msgid "Leave a comment."
+msgstr ""
+
+#: inc/filters.php:41
+msgid "Your email address will not be published. Required fields are marked*"
+msgstr ""
+
+#: inc/filters.php:42
+msgid "Comment"
+msgstr ""
+
+#: inc/filters.php:44
+msgid "btn btn-default btn-md"
+msgstr ""
+
+#: inc/filters.php:45
+msgid "Post A Comment"
+msgstr ""
+
+#: inc/filters.php:60
+msgid "Search"
+msgstr ""
+
+#: inc/hooks.php:86
+msgid "Add a menu"
+msgstr ""
+
+#: inc/hooks.php:345
+msgid "You are here:"
+msgstr ""
+
+#: inc/hooks.php:407
+#, php-format
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: inc/options.php:5
+msgid "Theme Option"
+msgstr ""
+
+#: inc/options.php:6
+msgid " Newpaper Magazine Theme Option"
+msgstr ""
+
+#: inc/options.php:17
+msgid "Top Header"
+msgstr ""
+
+#: inc/options.php:18
+msgid "Configure Breaking News type and Social icons."
+msgstr ""
+
+#: inc/options.php:30
+msgid "Show Breaking News"
+msgstr ""
+
+#: inc/options.php:39
+msgid "Breaking News"
+msgstr ""
+
+#: inc/options.php:44
+msgid "Breaking News Title"
+msgstr ""
+
+#: inc/options.php:58
+msgid "Choose Category"
+msgstr ""
+
+#: inc/options.php:75
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/options.php:76
+msgid "Footer Settings Section."
+msgstr ""
+
+#: inc/options.php:88
+msgid "Copyright text"
+msgstr ""
+
+#: inc/options.php:100
+msgid "Other Settings"
+msgstr ""
+
+#: inc/options.php:101
+msgid "Other Settings Section."
+msgstr ""
+
+#: inc/options.php:113
+msgid "Show Scroll To Top Button"
+msgstr ""
+
+#: inc/options.php:127
+msgid "Show Search Option On Header"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Facebook"
+msgstr ""
+
+#: inc/options.php:156
+msgid "Twitter"
+msgstr ""
+
+#: inc/options.php:170
+msgid "Linkedin"
+msgstr ""
+
+#: inc/options.php:184
+msgid "Pinterest"
+msgstr ""
+
+#: inc/options.php:197
+msgid "Instagram"
+msgstr ""
+
+#: inc/options.php:210
+msgid "Tumblr"
+msgstr ""
+
+#: inc/options.php:223
+msgid "Youtube"
+msgstr ""
+
+#: inc/options.php:237
+msgid "Theme Sidebar"
+msgstr ""
+
+#: inc/options.php:247
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/options.php:252
+msgid "Left"
+msgstr ""
+
+#: inc/options.php:253
+msgid "Right"
+msgstr ""
+
+#: inc/options.php:254
+msgid "None"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+#: inc/widgets/main-highlights.php:86 inc/widgets/main-highlights.php:145
+#: inc/widgets/main-highlights.php:196 inc/widgets/main-highlights.php:346
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:72 template-parts/content-page.php:30
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/widgets/footer-post-widget.php:38
+msgid "Displays posts. Place it in \"Footer Widget Area\" and only works properly in this widget area."
+msgstr ""
+
+#: inc/widgets/footer-post-widget.php:40
+msgid "Footer: Post Widget"
+msgstr ""
+
+#: inc/widgets/footer-post-widget.php:99
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/footer-post-widget.php:103 inc/widgets/main-highlights.php:387
+#: inc/widgets/news-layout-five.php:281 inc/widgets/news-layout-five.php:309
+msgid "Select Category: "
+msgstr ""
+
+#: inc/widgets/footer-post-widget.php:113
+#: inc/widgets/front-page-bottom-widget.php:140
+#: inc/widgets/main-highlights.php:251 inc/widgets/main-highlights.php:267
+#: inc/widgets/main-highlights.php:283 inc/widgets/main-highlights.php:397
+#: inc/widgets/news-layout-five.php:291 inc/widgets/news-layout-five.php:319
+#: inc/widgets/news-layout-four.php:169 inc/widgets/news-layout-one.php:170
+#: inc/widgets/news-layout-three.php:151 inc/widgets/news-layout-two.php:170
+msgid "All Categories"
+msgstr ""
+
+#: inc/widgets/front-page-bottom-widget.php:29
+msgid "Displays posts. Place it in \"Front Page Widget Area Bottom\" widget area and only works in this widget area."
+msgstr ""
+
+#: inc/widgets/front-page-bottom-widget.php:32
+msgid "News Widget Six: FrontPage Bottom"
+msgstr ""
+
+#: inc/widgets/main-highlights.php:44
+msgid "Displays three distinct highlight posts. Place it in \"Highlight Widget Area\" widget area."
+msgstr ""
+
+#: inc/widgets/main-highlights.php:46
+msgid "Main Highlight"
+msgstr ""
+
+#: inc/widgets/main-highlights.php:241
+msgid "Left Highlight: "
+msgstr ""
+
+#: inc/widgets/main-highlights.php:257
+msgid "Right Highlight Top: "
+msgstr ""
+
+#: inc/widgets/main-highlights.php:273
+msgid "Right Highlight Bottom: "
+msgstr ""
+
+#: inc/widgets/main-highlights.php:305
+msgid "Displays posts as slider. Place it in \"Highlight Wiget Area\" widget area. It only works in the widget area."
+msgstr ""
+
+#: inc/widgets/main-highlights.php:307
+msgid "Slider Highlight"
+msgstr ""
+
+#: inc/widgets/main-highlights.php:403
+msgid "Post No: "
+msgstr ""
+
+#: inc/widgets/news-layout-five.php:28 inc/widgets/news-layout-four.php:29
+#: inc/widgets/news-layout-one.php:29 inc/widgets/news-layout-two.php:29
+msgid "Displays posts. Place it in \"Front Page Widget Area Top\" widget area."
+msgstr ""
+
+#: inc/widgets/news-layout-five.php:31
+msgid "News Widget Five"
+msgstr ""
+
+#: inc/widgets/news-layout-five.php:273 inc/widgets/news-layout-five.php:301
+#: inc/widgets/news-layout-four.php:151 inc/widgets/news-layout-one.php:152
+#: inc/widgets/news-layout-two.php:152
+msgid "Use FontAwesome Icon. Example: fa-cog"
+msgstr ""
+
+#: inc/widgets/news-layout-five.php:326
+msgid "Post No For Both News: "
+msgstr ""
+
+#: inc/widgets/news-layout-four.php:32
+msgid "News Widget Four"
+msgstr ""
+
+#: inc/widgets/news-layout-one.php:32
+msgid "News Widget One"
+msgstr ""
+
+#: inc/widgets/news-layout-three.php:29
+msgid "News Layout Widget Three"
+msgstr ""
+
+#: inc/widgets/news-layout-three.php:32
+msgid "News Widget Three"
+msgstr ""
+
+#: inc/widgets/news-layout-two.php:32
+msgid "News Widget Two"
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:41
+msgid "Social Widget. Place it in \"Sidebar\" and only works properly in this widget area."
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:43
+msgid "Sidebar: Social Widget"
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:149 inc/widgets/sidebar-widgets.php:342
+msgid "Title: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:153
+msgid "Facebook Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:157
+msgid "Twitter Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:161
+msgid "Google Plus Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:165
+msgid "Youtube Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:169
+msgid "Instagram Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:173
+msgid "Pinterest Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:177
+msgid "Dribble Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:181
+msgid "Vimeo Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:185
+msgid "Tumblr Link: "
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:206
+msgid "Recent Post Widget. Place it in \"Sidebar\" and only works in this widget area."
+msgstr ""
+
+#: inc/widgets/sidebar-widgets.php:208
+msgid "Sidebar: Recent Post"
+msgstr ""
+
+#: search.php:52
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:24
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-pagination.php:14
+msgid "&laquo;"
+msgstr ""
+
+#: template-parts/content-pagination.php:15
+msgid "&raquo;"
+msgstr ""
+
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
